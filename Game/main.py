@@ -82,6 +82,6 @@ def run_game():
     #llamar la funcion
     user_option,computer_option =choose_options()    
     user_wins,computer_wins=check_rules(user_option,computer_option,user_wins,computer_wins)
-    check_wins(user_wins,computer_wins)
+    check_wins(user_wins,computer_wins) 
 
 run_game()
